@@ -28,6 +28,14 @@
     &none     &none        &none                                  &none                       &none     &none     &none     &none     &none    &none
             >;
         };
+
+        zmk_studio_1 {
+            status = "reserved";
+        };
+
+        zmk_studio_1 {
+            status = "reserved";
+        };
     
     };
 };

@@ -4,6 +4,6 @@
 if SHIELD_EPIC650ANSI
 
 config ZMK_KEYBOARD_NAME
-    default "epic65.0-ansi"
+    default "epic650ansi"
 
 endif
