@@ -33,7 +33,7 @@
             status = "reserved";
         };
 
-        zmk_studio_1 {
+        zmk_studio_2 {
             status = "reserved";
         };
     
