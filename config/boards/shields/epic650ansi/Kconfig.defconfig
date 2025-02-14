@@ -6,7 +6,6 @@ if SHIELD_EPIC650ANSI
 config ZMK_KEYBOARD_NAME
     default "epic650ansi"
 
-# Enable Bluetooth
 config BT
     bool "Enable Bluetooth"
     default y
