@@ -6,4 +6,32 @@ if SHIELD_EPIC650ANSI
 config ZMK_KEYBOARD_NAME
     default "epic650ansi"
 
+# Enable Bluetooth
+config BT
+    default y
+
+config BT_CENTRAL
+    default y
+
+config BT_PERIPHERAL
+    default y
+
+config BT_GATT_DIS
+    default y
+
+config BT_SMP
+    default y
+
+config SETTINGS
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_BLE_HOG
+    default y
+
+config ZMK_KEYMAP_EXTRAS
+    default y
+
 endif
