@@ -6,24 +6,4 @@ if SHIELD_EPIC650ANSI
 config ZMK_KEYBOARD_NAME
     default "epic650ansi"
 
-config BT
-    bool "Enable Bluetooth"
-    default y
-
-config CONFIG_BT_BAS
-    bool "Enable Bluetooth Battery Service"
-    default y
-
-config CONFIG_BT_MAX_CONN
-    int "Maximum Bluetooth connections"
-    default 3
-
-config CONFIG_BT_MAX_PAIRED
-    int "Maximum paired Bluetooth devices"
-    default 3
-
-config CONFIG_ZMK_BLE
-    bool "Enable ZMK Bluetooth"
-    default y
-
 endif
